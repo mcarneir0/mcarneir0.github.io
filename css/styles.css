@@ -4293,6 +4293,10 @@ input[type="button"].btn--primary:focus {
     opacity: 0.4;
 }
 
+.s-testimonials .swiper-pagination-bullet:nth-child(even) {
+    display: none;
+}
+
 .s-testimonials .swiper-pagination-bullet-active {
     background: var(--color-1);
     opacity: 1;
@@ -4363,6 +4367,9 @@ input[type="button"].btn--primary:focus {
 @media screen and (max-width: 800px) {
     .testimonial-slider__slide {
         text-align: center;
+    }
+    .s-testimonials .swiper-pagination-bullet:nth-child(even) {
+        display: inline-block;
     }
 }
 
