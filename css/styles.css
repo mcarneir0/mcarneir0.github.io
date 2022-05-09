@@ -4339,6 +4339,8 @@ input[type="button"].btn--primary:focus {
 
 .testimonial-slider__cite {
     display: block;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .testimonial-slider__cite strong, 
